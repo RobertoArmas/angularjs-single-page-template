@@ -6,6 +6,11 @@
         url: '/',
         templateUrl: 'templates/hello/html/index.html',
         controller: 'HelloController'
+      })
+      .state('roberto', {
+        url: '/roberto',
+        templateUrl: 'templates/roberto/html/index.html',
+        controller: 'RobertoController'
       });
     $urlRouterProvider.otherwise('/');
   });
