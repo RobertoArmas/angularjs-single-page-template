@@ -1,0 +1,10 @@
+{
+  "vendor": {
+    "styles": "<link href='vendor-5304c02059.css' media='all' rel='stylesheet' type='text/css'/>",
+    "scripts": "<script src='vendor-ded65bf88c.js' type='text/javascript'></script>"
+  },
+  "main": {
+    "styles": "<link href='main-68b329da98.css' media='all' rel='stylesheet' type='text/css'/>",
+    "scripts": "<script src='main-70a27baa9b.js' type='text/javascript'></script>"
+  }
+}
