@@ -1,3 +1,3 @@
-appControllers.controller('RobertoController', function($scope){
+appControllers.controller('RobertoController', ['$scoope',function($scope){
 
-});
+}]);
