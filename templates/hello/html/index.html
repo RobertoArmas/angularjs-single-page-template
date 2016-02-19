@@ -2,5 +2,8 @@
   <h1>{{message}}</h1>
   <p>{{messageFromInput}}</p>
   <br>
-  <input type="text" ng-model="messageFromInput" name="message" value=""/>
+  <md-input-container>
+    <label>Mensaje</label>
+    <input type="text" ng-model="messageFromInput" name="message" value=""/>
+  </md-input-container>
 </div>

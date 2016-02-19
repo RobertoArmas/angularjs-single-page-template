@@ -1,5 +1,6 @@
 
-  angular.module('app.routes', []).config(function($stateProvider, $urlRouterProvider){
+  angular.module('app.routes', ['ngMaterial']).config(function($stateProvider, $urlRouterProvider,$mdGestureProvider){
+    $mdGestureProvider.skipClickHijack();
     $stateProvider
       .state('app', {
         url: '/',
