@@ -9,7 +9,14 @@ module.exports = {
         './templates/hello/js/controllers.js',
         './templates/roberto/js/controllers.js'
       ],
-      styles: './css/**/*.css'
+      styles: './css/**/*.css',
+      options:{
+        useMin: true,
+        minCSS: true,
+        uglify: true,
+        rev: false,
+        maps: false
+      }
     },
     vendor: {
       scripts: [
@@ -18,7 +25,14 @@ module.exports = {
       ],
       styles: [
         './libs/bootstrap/dist/css/bootstrap.min.css'
-      ]
+      ],
+      options:{
+        useMin: true,
+        minCSS: true,
+        uglify: true,
+        rev: false,
+        maps: false 
+      }
     }
   }
   //,
