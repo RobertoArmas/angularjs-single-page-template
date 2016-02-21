@@ -28,6 +28,14 @@
     "shelljs": "^0.6.0"
   },
   "devDependencies": {
-    "gulp-bundle-assets": "^2.23.0"
+    "gulp-bundle-assets": "^2.23.0",
+    "gulp-jasmine": "^2.3.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.21",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.7",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-spec-reporter": "0.0.24",
+    "phantomjs-prebuilt": "^2.1.4"
   }
 }
