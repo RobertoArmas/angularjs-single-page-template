@@ -30,6 +30,7 @@
   "devDependencies": {
     "gulp-bundle-assets": "^2.23.0",
     "gulp-jasmine": "^2.3.0",
+    "gulp-karma": "0.0.5",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.21",
     "karma-chrome-launcher": "^0.2.2",
