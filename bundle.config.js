@@ -5,6 +5,7 @@ module.exports = {
       scripts: [
         './js/app.js',
         './js/controllers.js',
+        './js/directives.js',
         './js/routes.js',
         './templates/hello/js/controllers.js',
         './templates/roberto/js/controllers.js'
@@ -31,7 +32,7 @@ module.exports = {
         minCSS: true,
         uglify: true,
         rev: false,
-        maps: false 
+        maps: false
       }
     }
   }
