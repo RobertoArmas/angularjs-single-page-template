@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RobertoArmas/angularjs-single-page-test.git"
+    "url": "git+https://github.com/RobertoArmas/angularjs-single-page-template.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RobertoArmas/angularjs-single-page-test/issues"
+    "url": "https://github.com/RobertoArmas/angularjs-single-page-template/issues"
   },
-  "homepage": "https://github.com/RobertoArmas/angularjs-single-page-test#readme",
+  "homepage": "https://github.com/RobertoArmas/angularjs-single-page-template#readme",
   "dependencies": {
     "bower": "^1.7.7",
     "gulp": "^3.9.1",
