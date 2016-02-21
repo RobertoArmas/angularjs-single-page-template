@@ -15,7 +15,7 @@ var paths = {
 
 gulp.task('default', ['sass']);
 
-gulp.task('webserver', function(){
+gulp.task('serve',['watch'],function(){
   gulp.src([
   	'./'
   	])
@@ -23,7 +23,7 @@ gulp.task('webserver', function(){
       livereload: true,
       // directoryListing: true,
       // open: true,
-      port: 9001
+      port: 8001
     }));
 });
 
