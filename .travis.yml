@@ -8,4 +8,3 @@ before_script:
   - 'npm install -g bower gulp karma'
   - 'npm install' # install npm packages
   - 'bower install' # install bower packages
-  - 'gulp serve'
