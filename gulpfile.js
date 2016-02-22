@@ -14,7 +14,7 @@ var paths = {
   sass: ['./scss/**/*.scss']
 };
 
-gulp.task('default', ['sass']);
+gulp.task('default', ['serve']);
 
 gulp.task('serve',['watch'],function(){
   gulp.src([
@@ -28,7 +28,7 @@ gulp.task('serve',['watch'],function(){
     }));
 });
 
-gulp.task('sass', function(done) {
+gulp.task('sass', ['bundle'],function(done) {
   gulp.src('./scss/*.scss')
     .pipe(sass({
       errLogToConsole: true
