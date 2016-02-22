@@ -1,6 +1,6 @@
 # AngularJS Single Page Template
 
-[![Build Status](https://travis-ci.org/RobertoArmas/angularjs-single-page-template.svg?branch=master)](https://travis-ci.org/RobertoArmas/angularjs-single-page-template)
+[![Build Status](https://travis-ci.org/RobertoArmas/angularjs-single-page-template.svg?branch=gh-pages)](https://travis-ci.org/RobertoArmas/angularjs-single-page-template)
 
 AngularJS it's a basic template that you could getting started with AngularJS.
 
