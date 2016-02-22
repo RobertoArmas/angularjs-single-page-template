@@ -28,12 +28,12 @@ gulp.task('serve',['watch'],function(){
     }));
 });
 
-gulp.task('sass', ['bundle'],function(done) {
+gulp.task('sass',function(done) {
   gulp.src('./scss/*.scss')
     .pipe(sass({
       errLogToConsole: true
     }))
-    .pipe(gulp.dest('./css/'))
+    //.pipe(gulp.dest('./css/'))
     .pipe(minifyCss({
       keepSpecialComments: 0
     }))
@@ -44,6 +44,7 @@ gulp.task('sass', ['bundle'],function(done) {
 
 gulp.task('watch', function() {
   gulp.watch(paths.sass, ['sass']);
+  gulp.watch('./css/**/*.min.css',['bundle']);
 });
 
 gulp.task('bundle', function() {
