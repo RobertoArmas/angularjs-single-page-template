@@ -10,7 +10,7 @@ module.exports = {
         './templates/hello/js/controllers.js',
         './templates/roberto/js/controllers.js'
       ],
-      styles: './css/**/*.css',
+      styles: './css/**/*.min.css',
       options:{
         useMin: true,
         minCSS: true,
