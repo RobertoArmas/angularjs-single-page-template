@@ -8,7 +8,10 @@ var rename = require('gulp-rename');
 var sh = require('shelljs');
 var bundle = require('gulp-bundle-assets');
 var webserver = require('gulp-webserver');
-var karma = require('gulp-karma');
+var karma = require('karma');
+
+const isTravis = process.env.TRAVIS || false;
+const pathToKarmaConf = __dirname.replace('/gulp', '');
 
 var paths = {
   sass: ['./scss/**/*.scss']
@@ -59,4 +62,11 @@ gulp.task('install', function() {
     .on('log', function(data) {
       gutil.log('bower', gutil.colors.cyan(data.id), data.message);
     });
+});
+
+gulp.task('test', function(done){
+  karma.server.start({
+   configFile: pathToKarmaConf + '/karma.conf.js',
+   singleRun: isTravis
+ }, done);
 });

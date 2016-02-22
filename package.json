@@ -4,7 +4,9 @@
   "description": "Simple angular js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp sass && gulp bundle",
+    "start": "gulp serve",
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -28,14 +30,22 @@
     "shelljs": "^0.6.0"
   },
   "devDependencies": {
+    "angular-mocks": "^1.5.0",
     "gulp-bundle-assets": "^2.23.0",
     "gulp-jasmine": "^2.3.0",
     "gulp-karma": "0.0.5",
     "jasmine-core": "^2.4.1",
-    "karma": "^0.12.0",
+    "jasmine-spec-reporter": "^2.4.0",
+    "karma": "^0.12.37",
     "karma-chrome-launcher": "^0.2.2",
     "karma-jasmine": "^0.3.7",
+    "karma-json-fixtures-preprocessor": "0.0.6",
+    "karma-mocha-reporter": "^1.2.0",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-phantomjs2-launcher": "^0.5.0",
+    "karma-safari-launcher": "^0.1.1",
     "karma-spec-reporter": "0.0.24",
+    "karma-webpack": "^1.7.0",
     "phantomjs-prebuilt": "^2.1.4"
   }
 }
