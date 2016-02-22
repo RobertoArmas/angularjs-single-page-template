@@ -10,6 +10,7 @@ install:
   - 'bower install' # install bower packages
   - 'npm run build'
 before_script:
-  - 'gulp serve'
+  - 'npm start &'
+  - 'sleep 5'
 after_script:
   - process.exit()
