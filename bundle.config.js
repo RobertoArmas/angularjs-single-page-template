@@ -7,8 +7,7 @@ module.exports = {
         './src/js/controllers.js',
         './src/js/directives.js',
         './src/js/routes.js',
-        './templates/hello/js/controllers.js',
-        './templates/roberto/js/controllers.js'
+        './src/controllers/*.js',
       ],
       styles: './css/**/*.min.css',
       options:{
