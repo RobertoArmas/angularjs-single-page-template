@@ -3,7 +3,7 @@ node_js:
   - '0.10.33'
 before_script:
   - 'export CHROME_BIN=chromium-browser'
-  - 'export DISPLAY=:99.0'
+  - 'export DISPLAY=:99.0'
   - 'sh -e /etc/init.d/xvfb start'
   - 'npm install -g bower gulp karma'
   - 'npm install' # install npm packages
