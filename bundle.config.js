@@ -7,9 +7,9 @@ module.exports = {
         './src/js/controllers.js',
         './src/js/directives.js',
         './src/js/routes.js',
-        './src/controllers/*.js',
+        './src/js/controllers/*.js',
       ],
-      styles: './css/**/*.min.css',
+      styles: './src/css/**/*.min.css',
       options:{
         useMin: true,
         minCSS: true,
