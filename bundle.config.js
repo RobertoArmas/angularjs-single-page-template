@@ -3,10 +3,10 @@ module.exports = {
   bundle: {
     main: {
       scripts: [
-        './js/app.js',
-        './js/controllers.js',
-        './js/directives.js',
-        './js/routes.js',
+        './src/js/app.js',
+        './src/js/controllers.js',
+        './src/js/directives.js',
+        './src/js/routes.js',
         './templates/hello/js/controllers.js',
         './templates/roberto/js/controllers.js'
       ],
